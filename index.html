@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>my website</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/></head>
+    <body>
+        
+<div class = "header">
+    
+    <nav>
+        <a href="index.html"><img src="images/logo.png" ></a>
+        <div class="nav-links" id="navLinks">
+  
+
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+<ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">Discord</a></li>
+    <li><a href="">Instagram</a></li>
+    <li><a href="">Join-Us</a></li>
+</ul>
+
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+
+    <div class = "text-box">
+
+        <h1>FIRESERVER</h1>
+        <p>Is That A Wooden Pickaxe In Your Pocket,<br> Or Are You Just Happy To See Me?</p>
+
+        <a href="" class="hero-btn">Play-Now</a>
+
+    </div>
+
+
+
+</div>
+
+<div class="course">
+
+<h1>What We Do</h1>
+<p>The Fire Smp is a small but vastly growing minecraft server network that provides its users with a fun survival experience. From swords to picks, towers to houses and PVP to survival. We understand the hassle to find the perfect server. Lucky Enough, we strive to have the best gameplay to offer to all our players. Our servers are completed with professional and fair staff who are highly experienced in minecrfat and will be able to help you in all aspects of the game.</p>
+
+
+</div>
+
+
+
+<!-------java script for toggle menu------------>
+
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0px"
+}
+
+function hideMenu(){
+    navLinks.style.right = "-200px"
+}
+
+
+</script>
+
+    </body>
+</html>
